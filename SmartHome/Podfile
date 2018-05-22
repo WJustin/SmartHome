@@ -1,6 +1,17 @@
 #use_frameworks!
 inhibit_all_warnings!
 
+def commonPods
+    pod 'Masonry'
+    pod 'YYWebImage'
+    pod 'YYCategories'
+    pod 'JLRoutes'
+    pod 'YYModel'
+    pod 'GSToast', :git => 'http://Justin.Wang@gitlab.goshare2.net/Justin.Wang/GSToast.git'
+    pod 'YTKNetwork'
+    pod 'FDFullscreenPopGesture'
+end
+
 target 'SmartHome' do
-    pod 'AFNetworking'
+    commonPods
 end

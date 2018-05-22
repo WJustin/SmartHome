@@ -1,0 +1,36 @@
+{
+  "name": "GSToast",
+  "version": "0.1.0",
+  "summary": "A short description of GSToast.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "http://Justin.Wang@gitlab.goshare2.net/Justin.Wang/GSToast.git",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Justin.wang": "wangrongchao@126.com"
+  },
+  "source": {
+    "git": "http://Justin.Wang@gitlab.goshare2.net/Justin.Wang/GSToast.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "GSToast/Classes/**/*",
+  "resource_bundles": {
+    "GSToast": [
+      "GSToast/Assets/*.xcassets"
+    ]
+  },
+  "public_header_files": "Pod/Classes/**/*.h",
+  "dependencies": {
+    "MBProgressHUD": [
+
+    ],
+    "YYCategories": [
+
+    ]
+  }
+}
