@@ -15,6 +15,8 @@
 		BA3348EC20B41D2E006C0E2D /* SMHHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA3348EB20B41D2E006C0E2D /* SMHHomeViewController.m */; };
 		BA3348EF20B41D38006C0E2D /* SMHUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA3348EE20B41D38006C0E2D /* SMHUserViewController.m */; };
 		BA3348F220B41D44006C0E2D /* SMHRegionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA3348F120B41D44006C0E2D /* SMHRegionViewController.m */; };
+		BA3348F720B42AB3006C0E2D /* SMHRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = BA3348F620B42AB3006C0E2D /* SMHRequest.m */; };
+		BA3348FF20B42EE5006C0E2D /* UIApplication+SMHHierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = BA3348FE20B42EE5006C0E2D /* UIApplication+SMHHierarchy.m */; };
 		BA9E30D420B4059D000F42F7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9E30D320B4059D000F42F7 /* AppDelegate.m */; };
 		BA9E30DE20B4059D000F42F7 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = BA9E30DD20B4059D000F42F7 /* Podfile */; };
 		BA9E30E020B4059E000F42F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA9E30DF20B4059E000F42F7 /* Assets.xcassets */; };
@@ -60,6 +62,13 @@
 		BA3348EE20B41D38006C0E2D /* SMHUserViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMHUserViewController.m; sourceTree = "<group>"; };
 		BA3348F020B41D44006C0E2D /* SMHRegionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMHRegionViewController.h; sourceTree = "<group>"; };
 		BA3348F120B41D44006C0E2D /* SMHRegionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMHRegionViewController.m; sourceTree = "<group>"; };
+		BA3348F520B42AB3006C0E2D /* SMHRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMHRequest.h; sourceTree = "<group>"; };
+		BA3348F620B42AB3006C0E2D /* SMHRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMHRequest.m; sourceTree = "<group>"; };
+		BA3348F920B42DE8006C0E2D /* SMHUIkit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMHUIkit.h; sourceTree = "<group>"; };
+		BA3348FB20B42E28006C0E2D /* SMHNetwork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMHNetwork.h; sourceTree = "<group>"; };
+		BA3348FD20B42EE5006C0E2D /* UIApplication+SMHHierarchy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIApplication+SMHHierarchy.h"; sourceTree = "<group>"; };
+		BA3348FE20B42EE5006C0E2D /* UIApplication+SMHHierarchy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+SMHHierarchy.m"; sourceTree = "<group>"; };
+		BA33490020B42F11006C0E2D /* SMHCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMHCategory.h; sourceTree = "<group>"; };
 		BA9E30CF20B4059D000F42F7 /* SmartHome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartHome.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA9E30D220B4059D000F42F7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BA9E30D320B4059D000F42F7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -181,6 +190,8 @@
 		BA3348DE20B419F0006C0E2D /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				BA3348FC20B42EA9006C0E2D /* Category */,
+				BA3348F420B4221F006C0E2D /* Network */,
 				BA3348DF20B419F0006C0E2D /* UIkit */,
 			);
 			path = Common;
@@ -191,8 +202,29 @@
 			children = (
 				BA3348E020B41A0D006C0E2D /* SMHBaseViewController.h */,
 				BA3348E120B41A0D006C0E2D /* SMHBaseViewController.m */,
+				BA3348F920B42DE8006C0E2D /* SMHUIkit.h */,
 			);
 			path = UIkit;
+			sourceTree = "<group>";
+		};
+		BA3348F420B4221F006C0E2D /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				BA3348F520B42AB3006C0E2D /* SMHRequest.h */,
+				BA3348F620B42AB3006C0E2D /* SMHRequest.m */,
+				BA3348FB20B42E28006C0E2D /* SMHNetwork.h */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		BA3348FC20B42EA9006C0E2D /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				BA3348FD20B42EE5006C0E2D /* UIApplication+SMHHierarchy.h */,
+				BA3348FE20B42EE5006C0E2D /* UIApplication+SMHHierarchy.m */,
+				BA33490020B42F11006C0E2D /* SMHCategory.h */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 		BA9E30C620B4059D000F42F7 = {
@@ -443,8 +475,10 @@
 				BA3348E220B41A0D006C0E2D /* SMHBaseViewController.m in Sources */,
 				BA3348DD20B4199C006C0E2D /* SMHRootManager.m in Sources */,
 				BA3348F220B41D44006C0E2D /* SMHRegionViewController.m in Sources */,
+				BA3348F720B42AB3006C0E2D /* SMHRequest.m in Sources */,
 				BA3348E820B41D13006C0E2D /* SMHSceneViewController.m in Sources */,
 				BA3348E520B41B5C006C0E2D /* SMHCategoryViewController.m in Sources */,
+				BA3348FF20B42EE5006C0E2D /* UIApplication+SMHHierarchy.m in Sources */,
 				BA9E30E620B4059E000F42F7 /* main.m in Sources */,
 				BA3348EC20B41D2E006C0E2D /* SMHHomeViewController.m in Sources */,
 				BA9E30D420B4059D000F42F7 /* AppDelegate.m in Sources */,

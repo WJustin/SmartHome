@@ -13,5 +13,7 @@
 #import <YYCategories/YYCategories.h>
 #import <FDFullscreenPopGesture/UINavigationController+FDFullscreenPopGesture.h>
 
+#import "SMHNetwork.h"
+#import "SMHUIkit.h"
 
 #endif /* SmartHome_pch */
