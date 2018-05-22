@@ -1,0 +1,17 @@
+//
+//  SmartHome.pch
+//  SmartHome
+//
+//  Created by Justin.wang on 2018/5/22.
+//  Copyright © 2018年 施勒智能. All rights reserved.
+//
+
+#ifndef SmartHome_pch
+#define SmartHome_pch
+
+#import <Masonry/Masonry.h>
+#import <YYCategories/YYCategories.h>
+#import <FDFullscreenPopGesture/UINavigationController+FDFullscreenPopGesture.h>
+
+
+#endif /* SmartHome_pch */

@@ -8,9 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		4567C7674BEB6031125435E5 /* libPods-SmartHome.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5713BF9553B854742BB3B272 /* libPods-SmartHome.a */; };
+		BA3348DD20B4199C006C0E2D /* SMHRootManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BA3348DC20B4199C006C0E2D /* SMHRootManager.m */; };
+		BA3348E220B41A0D006C0E2D /* SMHBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA3348E120B41A0D006C0E2D /* SMHBaseViewController.m */; };
+		BA3348E520B41B5C006C0E2D /* SMHCategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA3348E420B41B5C006C0E2D /* SMHCategoryViewController.m */; };
+		BA3348E820B41D13006C0E2D /* SMHSceneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA3348E720B41D13006C0E2D /* SMHSceneViewController.m */; };
+		BA3348EC20B41D2E006C0E2D /* SMHHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA3348EB20B41D2E006C0E2D /* SMHHomeViewController.m */; };
+		BA3348EF20B41D38006C0E2D /* SMHUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA3348EE20B41D38006C0E2D /* SMHUserViewController.m */; };
+		BA3348F220B41D44006C0E2D /* SMHRegionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA3348F120B41D44006C0E2D /* SMHRegionViewController.m */; };
 		BA9E30D420B4059D000F42F7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9E30D320B4059D000F42F7 /* AppDelegate.m */; };
-		BA9E30D820B4059D000F42F7 /* SmartHomeService.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9E30D720B4059D000F42F7 /* SmartHomeService.m */; };
-		BA9E30DC20B4059D000F42F7 /* SmartHomeUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9E30DB20B4059D000F42F7 /* SmartHomeUtil.m */; };
 		BA9E30DE20B4059D000F42F7 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = BA9E30DD20B4059D000F42F7 /* Podfile */; };
 		BA9E30E020B4059E000F42F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA9E30DF20B4059E000F42F7 /* Assets.xcassets */; };
 		BA9E30E320B4059E000F42F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA9E30E120B4059E000F42F7 /* LaunchScreen.storyboard */; };
@@ -40,13 +45,24 @@
 		065DDC97A9166CB6C8C2FF26 /* Pods-SmartHome.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartHome.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SmartHome/Pods-SmartHome.debug.xcconfig"; sourceTree = "<group>"; };
 		5713BF9553B854742BB3B272 /* libPods-SmartHome.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SmartHome.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7692817DD82B224EE72F743 /* Pods-SmartHome.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartHome.release.xcconfig"; path = "Pods/Target Support Files/Pods-SmartHome/Pods-SmartHome.release.xcconfig"; sourceTree = "<group>"; };
+		BA3348D220B41531006C0E2D /* SmartHome.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SmartHome.pch; sourceTree = "<group>"; };
+		BA3348DB20B4199C006C0E2D /* SMHRootManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMHRootManager.h; sourceTree = "<group>"; };
+		BA3348DC20B4199C006C0E2D /* SMHRootManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMHRootManager.m; sourceTree = "<group>"; };
+		BA3348E020B41A0D006C0E2D /* SMHBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMHBaseViewController.h; sourceTree = "<group>"; };
+		BA3348E120B41A0D006C0E2D /* SMHBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMHBaseViewController.m; sourceTree = "<group>"; };
+		BA3348E320B41B5C006C0E2D /* SMHCategoryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMHCategoryViewController.h; sourceTree = "<group>"; };
+		BA3348E420B41B5C006C0E2D /* SMHCategoryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMHCategoryViewController.m; sourceTree = "<group>"; };
+		BA3348E620B41D13006C0E2D /* SMHSceneViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMHSceneViewController.h; sourceTree = "<group>"; };
+		BA3348E720B41D13006C0E2D /* SMHSceneViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMHSceneViewController.m; sourceTree = "<group>"; };
+		BA3348EA20B41D2E006C0E2D /* SMHHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMHHomeViewController.h; sourceTree = "<group>"; };
+		BA3348EB20B41D2E006C0E2D /* SMHHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMHHomeViewController.m; sourceTree = "<group>"; };
+		BA3348ED20B41D38006C0E2D /* SMHUserViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMHUserViewController.h; sourceTree = "<group>"; };
+		BA3348EE20B41D38006C0E2D /* SMHUserViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMHUserViewController.m; sourceTree = "<group>"; };
+		BA3348F020B41D44006C0E2D /* SMHRegionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMHRegionViewController.h; sourceTree = "<group>"; };
+		BA3348F120B41D44006C0E2D /* SMHRegionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMHRegionViewController.m; sourceTree = "<group>"; };
 		BA9E30CF20B4059D000F42F7 /* SmartHome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartHome.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA9E30D220B4059D000F42F7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BA9E30D320B4059D000F42F7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		BA9E30D620B4059D000F42F7 /* SmartHomeService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SmartHomeService.h; path = Services/SmartHomeService.h; sourceTree = "<group>"; };
-		BA9E30D720B4059D000F42F7 /* SmartHomeService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SmartHomeService.m; path = Services/SmartHomeService.m; sourceTree = "<group>"; };
-		BA9E30DA20B4059D000F42F7 /* SmartHomeUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SmartHomeUtil.h; path = Utils/SmartHomeUtil.h; sourceTree = "<group>"; };
-		BA9E30DB20B4059D000F42F7 /* SmartHomeUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = SmartHomeUtil.m; path = Utils/SmartHomeUtil.m; sourceTree = "<group>"; };
 		BA9E30DD20B4059D000F42F7 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = "<group>"; };
 		BA9E30DF20B4059E000F42F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA9E30E220B4059E000F42F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -103,39 +119,80 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		BA3348CA20B41346006C0E2D /* Region */ = {
+		BA3348D520B4193F006C0E2D /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				BA3348DA20B41980006C0E2D /* Category */,
+				BA3348D920B41971006C0E2D /* Scene */,
+				BA3348D620B4193F006C0E2D /* Home */,
+				BA3348D720B4193F006C0E2D /* User */,
+				BA3348D820B4193F006C0E2D /* Region */,
+				BA3348DB20B4199C006C0E2D /* SMHRootManager.h */,
+				BA3348DC20B4199C006C0E2D /* SMHRootManager.m */,
 			);
-			name = Region;
+			path = Modules;
 			sourceTree = "<group>";
 		};
-		BA3348CB20B4135E006C0E2D /* Scene */ = {
+		BA3348D620B4193F006C0E2D /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				BA3348EA20B41D2E006C0E2D /* SMHHomeViewController.h */,
+				BA3348EB20B41D2E006C0E2D /* SMHHomeViewController.m */,
 			);
-			name = Scene;
+			path = Home;
 			sourceTree = "<group>";
 		};
-		BA3348CC20B4137C006C0E2D /* Home */ = {
+		BA3348D720B4193F006C0E2D /* User */ = {
 			isa = PBXGroup;
 			children = (
+				BA3348ED20B41D38006C0E2D /* SMHUserViewController.h */,
+				BA3348EE20B41D38006C0E2D /* SMHUserViewController.m */,
 			);
-			name = Home;
+			path = User;
 			sourceTree = "<group>";
 		};
-		BA3348CD20B4139B006C0E2D /* Category */ = {
+		BA3348D820B4193F006C0E2D /* Region */ = {
 			isa = PBXGroup;
 			children = (
+				BA3348F020B41D44006C0E2D /* SMHRegionViewController.h */,
+				BA3348F120B41D44006C0E2D /* SMHRegionViewController.m */,
 			);
-			name = Category;
+			path = Region;
 			sourceTree = "<group>";
 		};
-		BA3348CE20B413A6006C0E2D /* User */ = {
+		BA3348D920B41971006C0E2D /* Scene */ = {
 			isa = PBXGroup;
 			children = (
+				BA3348E620B41D13006C0E2D /* SMHSceneViewController.h */,
+				BA3348E720B41D13006C0E2D /* SMHSceneViewController.m */,
 			);
-			name = User;
+			path = Scene;
+			sourceTree = "<group>";
+		};
+		BA3348DA20B41980006C0E2D /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				BA3348E320B41B5C006C0E2D /* SMHCategoryViewController.h */,
+				BA3348E420B41B5C006C0E2D /* SMHCategoryViewController.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		BA3348DE20B419F0006C0E2D /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				BA3348DF20B419F0006C0E2D /* UIkit */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		BA3348DF20B419F0006C0E2D /* UIkit */ = {
+			isa = PBXGroup;
+			children = (
+				BA3348E020B41A0D006C0E2D /* SMHBaseViewController.h */,
+				BA3348E120B41A0D006C0E2D /* SMHBaseViewController.m */,
+			);
+			path = UIkit;
 			sourceTree = "<group>";
 		};
 		BA9E30C620B4059D000F42F7 = {
@@ -163,7 +220,8 @@
 		BA9E30D120B4059D000F42F7 /* SmartHome */ = {
 			isa = PBXGroup;
 			children = (
-				BA9E310820B41282000F42F7 /* Modules */,
+				BA3348DE20B419F0006C0E2D /* Common */,
+				BA3348D520B4193F006C0E2D /* Modules */,
 				BA9E30D220B4059D000F42F7 /* AppDelegate.h */,
 				BA9E30D320B4059D000F42F7 /* AppDelegate.m */,
 				BA9E30DD20B4059D000F42F7 /* Podfile */,
@@ -171,28 +229,9 @@
 				BA9E30E120B4059E000F42F7 /* LaunchScreen.storyboard */,
 				BA9E30E420B4059E000F42F7 /* Info.plist */,
 				BA9E30E520B4059E000F42F7 /* main.m */,
-				BA9E30D520B4059D000F42F7 /* Services */,
-				BA9E30D920B4059D000F42F7 /* Utils */,
+				BA3348D220B41531006C0E2D /* SmartHome.pch */,
 			);
 			path = SmartHome;
-			sourceTree = "<group>";
-		};
-		BA9E30D520B4059D000F42F7 /* Services */ = {
-			isa = PBXGroup;
-			children = (
-				BA9E30D620B4059D000F42F7 /* SmartHomeService.h */,
-				BA9E30D720B4059D000F42F7 /* SmartHomeService.m */,
-			);
-			name = Services;
-			sourceTree = "<group>";
-		};
-		BA9E30D920B4059D000F42F7 /* Utils */ = {
-			isa = PBXGroup;
-			children = (
-				BA9E30DA20B4059D000F42F7 /* SmartHomeUtil.h */,
-				BA9E30DB20B4059D000F42F7 /* SmartHomeUtil.m */,
-			);
-			name = Utils;
 			sourceTree = "<group>";
 		};
 		BA9E30EE20B4059E000F42F7 /* SmartHomeTests */ = {
@@ -211,18 +250,6 @@
 				BA9E30FC20B4059E000F42F7 /* Info.plist */,
 			);
 			path = SmartHomeUITests;
-			sourceTree = "<group>";
-		};
-		BA9E310820B41282000F42F7 /* Modules */ = {
-			isa = PBXGroup;
-			children = (
-				BA3348CE20B413A6006C0E2D /* User */,
-				BA3348CD20B4139B006C0E2D /* Category */,
-				BA3348CC20B4137C006C0E2D /* Home */,
-				BA3348CB20B4135E006C0E2D /* Scene */,
-				BA3348CA20B41346006C0E2D /* Region */,
-			);
-			name = Modules;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -412,9 +439,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BA9E30D820B4059D000F42F7 /* SmartHomeService.m in Sources */,
-				BA9E30DC20B4059D000F42F7 /* SmartHomeUtil.m in Sources */,
+				BA3348EF20B41D38006C0E2D /* SMHUserViewController.m in Sources */,
+				BA3348E220B41A0D006C0E2D /* SMHBaseViewController.m in Sources */,
+				BA3348DD20B4199C006C0E2D /* SMHRootManager.m in Sources */,
+				BA3348F220B41D44006C0E2D /* SMHRegionViewController.m in Sources */,
+				BA3348E820B41D13006C0E2D /* SMHSceneViewController.m in Sources */,
+				BA3348E520B41B5C006C0E2D /* SMHCategoryViewController.m in Sources */,
 				BA9E30E620B4059E000F42F7 /* main.m in Sources */,
+				BA3348EC20B41D2E006C0E2D /* SMHHomeViewController.m in Sources */,
 				BA9E30D420B4059D000F42F7 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -579,6 +611,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N4YFZ84PFP;
+				GCC_PREFIX_HEADER = SmartHome/SmartHome.pch;
 				INFOPLIST_FILE = SmartHome/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -597,6 +630,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N4YFZ84PFP;
+				GCC_PREFIX_HEADER = SmartHome/SmartHome.pch;
 				INFOPLIST_FILE = SmartHome/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
