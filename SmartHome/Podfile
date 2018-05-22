@@ -10,8 +10,10 @@ def commonPods
     pod 'GSToast', :git => 'http://Justin.Wang@gitlab.goshare2.net/Justin.Wang/GSToast.git'
     pod 'YTKNetwork'
     pod 'FDFullscreenPopGesture'
+    pod 'WebViewJavascriptBridge'
 end
 
 target 'SmartHome' do
     commonPods
 end
+

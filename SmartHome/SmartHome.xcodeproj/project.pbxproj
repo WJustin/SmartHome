@@ -17,6 +17,7 @@
 		BA3348F220B41D44006C0E2D /* SMHRegionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA3348F120B41D44006C0E2D /* SMHRegionViewController.m */; };
 		BA3348F720B42AB3006C0E2D /* SMHRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = BA3348F620B42AB3006C0E2D /* SMHRequest.m */; };
 		BA3348FF20B42EE5006C0E2D /* UIApplication+SMHHierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = BA3348FE20B42EE5006C0E2D /* UIApplication+SMHHierarchy.m */; };
+		BA33490320B4623C006C0E2D /* SMHWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA33490220B4623C006C0E2D /* SMHWebViewController.m */; };
 		BA9E30D420B4059D000F42F7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9E30D320B4059D000F42F7 /* AppDelegate.m */; };
 		BA9E30DE20B4059D000F42F7 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = BA9E30DD20B4059D000F42F7 /* Podfile */; };
 		BA9E30E020B4059E000F42F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA9E30DF20B4059E000F42F7 /* Assets.xcassets */; };
@@ -69,6 +70,8 @@
 		BA3348FD20B42EE5006C0E2D /* UIApplication+SMHHierarchy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIApplication+SMHHierarchy.h"; sourceTree = "<group>"; };
 		BA3348FE20B42EE5006C0E2D /* UIApplication+SMHHierarchy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+SMHHierarchy.m"; sourceTree = "<group>"; };
 		BA33490020B42F11006C0E2D /* SMHCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMHCategory.h; sourceTree = "<group>"; };
+		BA33490120B4623C006C0E2D /* SMHWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMHWebViewController.h; sourceTree = "<group>"; };
+		BA33490220B4623C006C0E2D /* SMHWebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMHWebViewController.m; sourceTree = "<group>"; };
 		BA9E30CF20B4059D000F42F7 /* SmartHome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartHome.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA9E30D220B4059D000F42F7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BA9E30D320B4059D000F42F7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -203,6 +206,8 @@
 				BA3348E020B41A0D006C0E2D /* SMHBaseViewController.h */,
 				BA3348E120B41A0D006C0E2D /* SMHBaseViewController.m */,
 				BA3348F920B42DE8006C0E2D /* SMHUIkit.h */,
+				BA33490120B4623C006C0E2D /* SMHWebViewController.h */,
+				BA33490220B4623C006C0E2D /* SMHWebViewController.m */,
 			);
 			path = UIkit;
 			sourceTree = "<group>";
@@ -473,6 +478,7 @@
 			files = (
 				BA3348EF20B41D38006C0E2D /* SMHUserViewController.m in Sources */,
 				BA3348E220B41A0D006C0E2D /* SMHBaseViewController.m in Sources */,
+				BA33490320B4623C006C0E2D /* SMHWebViewController.m in Sources */,
 				BA3348DD20B4199C006C0E2D /* SMHRootManager.m in Sources */,
 				BA3348F220B41D44006C0E2D /* SMHRegionViewController.m in Sources */,
 				BA3348F720B42AB3006C0E2D /* SMHRequest.m in Sources */,
