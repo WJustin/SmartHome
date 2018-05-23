@@ -10,5 +10,6 @@
 #define SMHNetwork_h
 
 #import "SMHRequest.h"
+#import "SMHMQManager.h"
 
 #endif /* SMHNetwork_h */

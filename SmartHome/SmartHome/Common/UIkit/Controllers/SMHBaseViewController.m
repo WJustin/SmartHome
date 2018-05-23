@@ -18,9 +18,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.navigationController.navigationBar.translucent = NO;
-    self.navigationController.navigationBar.barTintColor = [UIColor whiteColor];
-    self.view.backgroundColor = UIColorHex(F9F9F9);
+    self.view.backgroundColor = UIColorHex(292929);
     [self configBackButton];
 }
 
@@ -31,7 +29,8 @@
 
 - (void)configBackButton {
     if (self.navigationController.childViewControllers.count > 1) {
-        self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"返回"]
+        UIImage *backImage = [UIImage imageNamed:@"返回"];
+        self.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc] initWithImage:backImage
                                                                                  style:UIBarButtonItemStylePlain
                                                                                 target:self
                                                                                 action:@selector(popSelf)];

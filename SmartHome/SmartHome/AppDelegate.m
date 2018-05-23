@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "SMHRootManager.h"
+#import "SMHLoginViewController.h"
 
 @interface AppDelegate ()
 
@@ -15,10 +16,21 @@
 
 @implementation AppDelegate
 
-
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+- (BOOL)application:(UIApplication *)application
+didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    [[UINavigationBar appearance] setBackgroundImage:[UIImage yy_imageWithColor:UIColorHex(292929)]
+                                       forBarMetrics:UIBarMetricsDefault];
+    [[UINavigationBar appearance] setShadowImage:[UIImage new]];
+    NSMutableDictionary *dic = [NSMutableDictionary dictionary];
+    dic[NSFontAttributeName] = [UIFont fontWithName:PingFangSCRegular size:16];
+    dic[NSForegroundColorAttributeName] = [UIColor whiteColor];
+    [[UINavigationBar appearance] setTitleTextAttributes:dic];
+    [[UINavigationBar appearance] setTintColor:UIColorHex(DEDFDF)];
+    
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-    self.window.rootViewController = [[SMHRootManager shareManager] getRootViewController];
+    self.window.rootViewController = [[UINavigationController alloc] initWithRootViewController:[[SMHLoginViewController alloc] init]];
+
+//    self.window.rootViewController = [[SMHRootManager shareManager] getRootViewController];
     [self.window makeKeyAndVisible];
     return YES;
 }

@@ -9,7 +9,9 @@
 #ifndef SMHUIkit_h
 #define SMHUIkit_h
 
-#import "SMHBaseViewController.h"
-
+#import "SMHMacros.h"
+#import "SMHControllers.h"
+#import "SMHViews.h"
+#import "NVMAttributedStringMaker.h"
 
 #endif /* SMHUIkit_h */

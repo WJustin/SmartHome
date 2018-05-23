@@ -11,6 +11,7 @@ def commonPods
     pod 'YTKNetwork'
     pod 'FDFullscreenPopGesture'
     pod 'WebViewJavascriptBridge'
+    pod 'MQTTClient'
 end
 
 target 'SmartHome' do

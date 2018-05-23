@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		4567C7674BEB6031125435E5 /* libPods-SmartHome.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5713BF9553B854742BB3B272 /* libPods-SmartHome.a */; };
 		BA3348DD20B4199C006C0E2D /* SMHRootManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BA3348DC20B4199C006C0E2D /* SMHRootManager.m */; };
-		BA3348E220B41A0D006C0E2D /* SMHBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA3348E120B41A0D006C0E2D /* SMHBaseViewController.m */; };
 		BA3348E520B41B5C006C0E2D /* SMHCategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA3348E420B41B5C006C0E2D /* SMHCategoryViewController.m */; };
 		BA3348E820B41D13006C0E2D /* SMHSceneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA3348E720B41D13006C0E2D /* SMHSceneViewController.m */; };
 		BA3348EC20B41D2E006C0E2D /* SMHHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA3348EB20B41D2E006C0E2D /* SMHHomeViewController.m */; };
@@ -17,7 +16,25 @@
 		BA3348F220B41D44006C0E2D /* SMHRegionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA3348F120B41D44006C0E2D /* SMHRegionViewController.m */; };
 		BA3348F720B42AB3006C0E2D /* SMHRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = BA3348F620B42AB3006C0E2D /* SMHRequest.m */; };
 		BA3348FF20B42EE5006C0E2D /* UIApplication+SMHHierarchy.m in Sources */ = {isa = PBXBuildFile; fileRef = BA3348FE20B42EE5006C0E2D /* UIApplication+SMHHierarchy.m */; };
-		BA33490320B4623C006C0E2D /* SMHWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA33490220B4623C006C0E2D /* SMHWebViewController.m */; };
+		BA33490620B54F52006C0E2D /* SMHMQManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BA33490520B54F52006C0E2D /* SMHMQManager.m */; };
+		BA33490B20B5B6A6006C0E2D /* SMHLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA33490A20B5B6A6006C0E2D /* SMHLoginViewController.m */; };
+		BA33490E20B5B6EA006C0E2D /* SMHLoginInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA33490D20B5B6EA006C0E2D /* SMHLoginInputView.m */; };
+		BA33492220B5C0CD006C0E2D /* NSString+NVMAttributed.m in Sources */ = {isa = PBXBuildFile; fileRef = BA33491120B5C0CD006C0E2D /* NSString+NVMAttributed.m */; };
+		BA33492320B5C0CD006C0E2D /* NVMStringAttribute+Others.m in Sources */ = {isa = PBXBuildFile; fileRef = BA33491220B5C0CD006C0E2D /* NVMStringAttribute+Others.m */; };
+		BA33492420B5C0CD006C0E2D /* NVMStringAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = BA33491720B5C0CD006C0E2D /* NVMStringAttribute.m */; };
+		BA33492520B5C0CD006C0E2D /* NVMStringAttribute+Match.m in Sources */ = {isa = PBXBuildFile; fileRef = BA33491820B5C0CD006C0E2D /* NVMStringAttribute+Match.m */; };
+		BA33492620B5C0CD006C0E2D /* NVMStringAttribute+LineBreak.m in Sources */ = {isa = PBXBuildFile; fileRef = BA33491A20B5C0CD006C0E2D /* NVMStringAttribute+LineBreak.m */; };
+		BA33492720B5C0CD006C0E2D /* NVMStringAttribute+Range.m in Sources */ = {isa = PBXBuildFile; fileRef = BA33491F20B5C0CD006C0E2D /* NVMStringAttribute+Range.m */; };
+		BA33492820B5C0CD006C0E2D /* NVMStringAttribute+Align.m in Sources */ = {isa = PBXBuildFile; fileRef = BA33492020B5C0CD006C0E2D /* NVMStringAttribute+Align.m */; };
+		BA33492920B5C0CD006C0E2D /* NVMAttributesMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = BA33492120B5C0CD006C0E2D /* NVMAttributesMaker.m */; };
+		BA33492C20B5C525006C0E2D /* UIView+SMHExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = BA33492B20B5C525006C0E2D /* UIView+SMHExtension.m */; };
+		BA33493020B5C721006C0E2D /* SMHRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA33492F20B5C721006C0E2D /* SMHRegisterViewController.m */; };
+		BA33493420B5C9F6006C0E2D /* SMHHaveIconAndSeparatorInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = BA33493320B5C9F6006C0E2D /* SMHHaveIconAndSeparatorInputView.m */; };
+		BA33493B20B5CA57006C0E2D /* SMHWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA33493920B5CA57006C0E2D /* SMHWebViewController.m */; };
+		BA33493C20B5CA57006C0E2D /* SMHBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA33493A20B5CA57006C0E2D /* SMHBaseViewController.m */; };
+		BA33494120B5CE60006C0E2D /* SMHBottomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BA33494020B5CE60006C0E2D /* SMHBottomButton.m */; };
+		BA33494520B5D162006C0E2D /* SMHVerifyCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA33494420B5D162006C0E2D /* SMHVerifyCodeViewController.m */; };
+		BA33494920B5D49A006C0E2D /* SMHSetupPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA33494820B5D49A006C0E2D /* SMHSetupPasswordViewController.m */; };
 		BA9E30D420B4059D000F42F7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BA9E30D320B4059D000F42F7 /* AppDelegate.m */; };
 		BA9E30DE20B4059D000F42F7 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = BA9E30DD20B4059D000F42F7 /* Podfile */; };
 		BA9E30E020B4059E000F42F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA9E30DF20B4059E000F42F7 /* Assets.xcassets */; };
@@ -51,8 +68,6 @@
 		BA3348D220B41531006C0E2D /* SmartHome.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SmartHome.pch; sourceTree = "<group>"; };
 		BA3348DB20B4199C006C0E2D /* SMHRootManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMHRootManager.h; sourceTree = "<group>"; };
 		BA3348DC20B4199C006C0E2D /* SMHRootManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMHRootManager.m; sourceTree = "<group>"; };
-		BA3348E020B41A0D006C0E2D /* SMHBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMHBaseViewController.h; sourceTree = "<group>"; };
-		BA3348E120B41A0D006C0E2D /* SMHBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMHBaseViewController.m; sourceTree = "<group>"; };
 		BA3348E320B41B5C006C0E2D /* SMHCategoryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMHCategoryViewController.h; sourceTree = "<group>"; };
 		BA3348E420B41B5C006C0E2D /* SMHCategoryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMHCategoryViewController.m; sourceTree = "<group>"; };
 		BA3348E620B41D13006C0E2D /* SMHSceneViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMHSceneViewController.h; sourceTree = "<group>"; };
@@ -70,8 +85,48 @@
 		BA3348FD20B42EE5006C0E2D /* UIApplication+SMHHierarchy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIApplication+SMHHierarchy.h"; sourceTree = "<group>"; };
 		BA3348FE20B42EE5006C0E2D /* UIApplication+SMHHierarchy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+SMHHierarchy.m"; sourceTree = "<group>"; };
 		BA33490020B42F11006C0E2D /* SMHCategory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMHCategory.h; sourceTree = "<group>"; };
-		BA33490120B4623C006C0E2D /* SMHWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMHWebViewController.h; sourceTree = "<group>"; };
-		BA33490220B4623C006C0E2D /* SMHWebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMHWebViewController.m; sourceTree = "<group>"; };
+		BA33490420B54F52006C0E2D /* SMHMQManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMHMQManager.h; sourceTree = "<group>"; };
+		BA33490520B54F52006C0E2D /* SMHMQManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMHMQManager.m; sourceTree = "<group>"; };
+		BA33490920B5B6A6006C0E2D /* SMHLoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMHLoginViewController.h; sourceTree = "<group>"; };
+		BA33490A20B5B6A6006C0E2D /* SMHLoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMHLoginViewController.m; sourceTree = "<group>"; };
+		BA33490C20B5B6EA006C0E2D /* SMHLoginInputView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMHLoginInputView.h; sourceTree = "<group>"; };
+		BA33490D20B5B6EA006C0E2D /* SMHLoginInputView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMHLoginInputView.m; sourceTree = "<group>"; };
+		BA33490F20B5B886006C0E2D /* SMHMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMHMacros.h; sourceTree = "<group>"; };
+		BA33491120B5C0CD006C0E2D /* NSString+NVMAttributed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+NVMAttributed.m"; sourceTree = "<group>"; };
+		BA33491220B5C0CD006C0E2D /* NVMStringAttribute+Others.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NVMStringAttribute+Others.m"; sourceTree = "<group>"; };
+		BA33491320B5C0CD006C0E2D /* NVMStringAttribute+LineBreak.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NVMStringAttribute+LineBreak.h"; sourceTree = "<group>"; };
+		BA33491420B5C0CD006C0E2D /* NVMAttributedStringMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NVMAttributedStringMaker.h; sourceTree = "<group>"; };
+		BA33491520B5C0CD006C0E2D /* NVMStringAttribute+Align.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NVMStringAttribute+Align.h"; sourceTree = "<group>"; };
+		BA33491620B5C0CD006C0E2D /* NVMStringAttribute+Range.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NVMStringAttribute+Range.h"; sourceTree = "<group>"; };
+		BA33491720B5C0CD006C0E2D /* NVMStringAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NVMStringAttribute.m; sourceTree = "<group>"; };
+		BA33491820B5C0CD006C0E2D /* NVMStringAttribute+Match.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NVMStringAttribute+Match.m"; sourceTree = "<group>"; };
+		BA33491920B5C0CD006C0E2D /* NVMAttributesMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NVMAttributesMaker.h; sourceTree = "<group>"; };
+		BA33491A20B5C0CD006C0E2D /* NVMStringAttribute+LineBreak.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NVMStringAttribute+LineBreak.m"; sourceTree = "<group>"; };
+		BA33491B20B5C0CD006C0E2D /* NVMStringAttribute+Others.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NVMStringAttribute+Others.h"; sourceTree = "<group>"; };
+		BA33491C20B5C0CD006C0E2D /* NSString+NVMAttributed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+NVMAttributed.h"; sourceTree = "<group>"; };
+		BA33491D20B5C0CD006C0E2D /* NVMStringAttribute+Match.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NVMStringAttribute+Match.h"; sourceTree = "<group>"; };
+		BA33491E20B5C0CD006C0E2D /* NVMStringAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NVMStringAttribute.h; sourceTree = "<group>"; };
+		BA33491F20B5C0CD006C0E2D /* NVMStringAttribute+Range.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NVMStringAttribute+Range.m"; sourceTree = "<group>"; };
+		BA33492020B5C0CD006C0E2D /* NVMStringAttribute+Align.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NVMStringAttribute+Align.m"; sourceTree = "<group>"; };
+		BA33492120B5C0CD006C0E2D /* NVMAttributesMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NVMAttributesMaker.m; sourceTree = "<group>"; };
+		BA33492A20B5C525006C0E2D /* UIView+SMHExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+SMHExtension.h"; sourceTree = "<group>"; };
+		BA33492B20B5C525006C0E2D /* UIView+SMHExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+SMHExtension.m"; sourceTree = "<group>"; };
+		BA33492E20B5C721006C0E2D /* SMHRegisterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMHRegisterViewController.h; sourceTree = "<group>"; };
+		BA33492F20B5C721006C0E2D /* SMHRegisterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMHRegisterViewController.m; sourceTree = "<group>"; };
+		BA33493220B5C9F6006C0E2D /* SMHHaveIconAndSeparatorInputView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMHHaveIconAndSeparatorInputView.h; sourceTree = "<group>"; };
+		BA33493320B5C9F6006C0E2D /* SMHHaveIconAndSeparatorInputView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMHHaveIconAndSeparatorInputView.m; sourceTree = "<group>"; };
+		BA33493520B5CA0D006C0E2D /* SMHViews.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMHViews.h; sourceTree = "<group>"; };
+		BA33493720B5CA57006C0E2D /* SMHWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMHWebViewController.h; sourceTree = "<group>"; };
+		BA33493820B5CA57006C0E2D /* SMHBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMHBaseViewController.h; sourceTree = "<group>"; };
+		BA33493920B5CA57006C0E2D /* SMHWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMHWebViewController.m; sourceTree = "<group>"; };
+		BA33493A20B5CA57006C0E2D /* SMHBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMHBaseViewController.m; sourceTree = "<group>"; };
+		BA33493E20B5CAC4006C0E2D /* SMHControllers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMHControllers.h; sourceTree = "<group>"; };
+		BA33493F20B5CE60006C0E2D /* SMHBottomButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMHBottomButton.h; sourceTree = "<group>"; };
+		BA33494020B5CE60006C0E2D /* SMHBottomButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMHBottomButton.m; sourceTree = "<group>"; };
+		BA33494320B5D162006C0E2D /* SMHVerifyCodeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMHVerifyCodeViewController.h; sourceTree = "<group>"; };
+		BA33494420B5D162006C0E2D /* SMHVerifyCodeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMHVerifyCodeViewController.m; sourceTree = "<group>"; };
+		BA33494720B5D49A006C0E2D /* SMHSetupPasswordViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMHSetupPasswordViewController.h; sourceTree = "<group>"; };
+		BA33494820B5D49A006C0E2D /* SMHSetupPasswordViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMHSetupPasswordViewController.m; sourceTree = "<group>"; };
 		BA9E30CF20B4059D000F42F7 /* SmartHome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartHome.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA9E30D220B4059D000F42F7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BA9E30D320B4059D000F42F7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -134,6 +189,7 @@
 		BA3348D520B4193F006C0E2D /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				BA33490720B5B58D006C0E2D /* Auth */,
 				BA3348DA20B41980006C0E2D /* Category */,
 				BA3348D920B41971006C0E2D /* Scene */,
 				BA3348D620B4193F006C0E2D /* Home */,
@@ -203,11 +259,11 @@
 		BA3348DF20B419F0006C0E2D /* UIkit */ = {
 			isa = PBXGroup;
 			children = (
-				BA3348E020B41A0D006C0E2D /* SMHBaseViewController.h */,
-				BA3348E120B41A0D006C0E2D /* SMHBaseViewController.m */,
+				BA33493620B5CA2B006C0E2D /* Controllers */,
+				BA33493120B5C7EE006C0E2D /* Views */,
 				BA3348F920B42DE8006C0E2D /* SMHUIkit.h */,
-				BA33490120B4623C006C0E2D /* SMHWebViewController.h */,
-				BA33490220B4623C006C0E2D /* SMHWebViewController.m */,
+				BA33490F20B5B886006C0E2D /* SMHMacros.h */,
+				BA33491020B5C0CD006C0E2D /* AttributedStringMaker */,
 			);
 			path = UIkit;
 			sourceTree = "<group>";
@@ -218,6 +274,8 @@
 				BA3348F520B42AB3006C0E2D /* SMHRequest.h */,
 				BA3348F620B42AB3006C0E2D /* SMHRequest.m */,
 				BA3348FB20B42E28006C0E2D /* SMHNetwork.h */,
+				BA33490420B54F52006C0E2D /* SMHMQManager.h */,
+				BA33490520B54F52006C0E2D /* SMHMQManager.m */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -228,8 +286,107 @@
 				BA3348FD20B42EE5006C0E2D /* UIApplication+SMHHierarchy.h */,
 				BA3348FE20B42EE5006C0E2D /* UIApplication+SMHHierarchy.m */,
 				BA33490020B42F11006C0E2D /* SMHCategory.h */,
+				BA33492A20B5C525006C0E2D /* UIView+SMHExtension.h */,
+				BA33492B20B5C525006C0E2D /* UIView+SMHExtension.m */,
 			);
 			path = Category;
+			sourceTree = "<group>";
+		};
+		BA33490720B5B58D006C0E2D /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				BA33494620B5D476006C0E2D /* SetupPassword */,
+				BA33494220B5D13E006C0E2D /* VerifyCode */,
+				BA33492D20B5C703006C0E2D /* Register */,
+				BA33490820B5B687006C0E2D /* Login */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		BA33490820B5B687006C0E2D /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				BA33490920B5B6A6006C0E2D /* SMHLoginViewController.h */,
+				BA33490A20B5B6A6006C0E2D /* SMHLoginViewController.m */,
+				BA33490C20B5B6EA006C0E2D /* SMHLoginInputView.h */,
+				BA33490D20B5B6EA006C0E2D /* SMHLoginInputView.m */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		BA33491020B5C0CD006C0E2D /* AttributedStringMaker */ = {
+			isa = PBXGroup;
+			children = (
+				BA33491120B5C0CD006C0E2D /* NSString+NVMAttributed.m */,
+				BA33491220B5C0CD006C0E2D /* NVMStringAttribute+Others.m */,
+				BA33491320B5C0CD006C0E2D /* NVMStringAttribute+LineBreak.h */,
+				BA33491420B5C0CD006C0E2D /* NVMAttributedStringMaker.h */,
+				BA33491520B5C0CD006C0E2D /* NVMStringAttribute+Align.h */,
+				BA33491620B5C0CD006C0E2D /* NVMStringAttribute+Range.h */,
+				BA33491720B5C0CD006C0E2D /* NVMStringAttribute.m */,
+				BA33491820B5C0CD006C0E2D /* NVMStringAttribute+Match.m */,
+				BA33491920B5C0CD006C0E2D /* NVMAttributesMaker.h */,
+				BA33491A20B5C0CD006C0E2D /* NVMStringAttribute+LineBreak.m */,
+				BA33491B20B5C0CD006C0E2D /* NVMStringAttribute+Others.h */,
+				BA33491C20B5C0CD006C0E2D /* NSString+NVMAttributed.h */,
+				BA33491D20B5C0CD006C0E2D /* NVMStringAttribute+Match.h */,
+				BA33491E20B5C0CD006C0E2D /* NVMStringAttribute.h */,
+				BA33491F20B5C0CD006C0E2D /* NVMStringAttribute+Range.m */,
+				BA33492020B5C0CD006C0E2D /* NVMStringAttribute+Align.m */,
+				BA33492120B5C0CD006C0E2D /* NVMAttributesMaker.m */,
+			);
+			path = AttributedStringMaker;
+			sourceTree = "<group>";
+		};
+		BA33492D20B5C703006C0E2D /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				BA33492E20B5C721006C0E2D /* SMHRegisterViewController.h */,
+				BA33492F20B5C721006C0E2D /* SMHRegisterViewController.m */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		BA33493120B5C7EE006C0E2D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BA33493220B5C9F6006C0E2D /* SMHHaveIconAndSeparatorInputView.h */,
+				BA33493320B5C9F6006C0E2D /* SMHHaveIconAndSeparatorInputView.m */,
+				BA33493520B5CA0D006C0E2D /* SMHViews.h */,
+				BA33493F20B5CE60006C0E2D /* SMHBottomButton.h */,
+				BA33494020B5CE60006C0E2D /* SMHBottomButton.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BA33493620B5CA2B006C0E2D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BA33493820B5CA57006C0E2D /* SMHBaseViewController.h */,
+				BA33493A20B5CA57006C0E2D /* SMHBaseViewController.m */,
+				BA33493720B5CA57006C0E2D /* SMHWebViewController.h */,
+				BA33493920B5CA57006C0E2D /* SMHWebViewController.m */,
+				BA33493E20B5CAC4006C0E2D /* SMHControllers.h */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		BA33494220B5D13E006C0E2D /* VerifyCode */ = {
+			isa = PBXGroup;
+			children = (
+				BA33494320B5D162006C0E2D /* SMHVerifyCodeViewController.h */,
+				BA33494420B5D162006C0E2D /* SMHVerifyCodeViewController.m */,
+			);
+			path = VerifyCode;
+			sourceTree = "<group>";
+		};
+		BA33494620B5D476006C0E2D /* SetupPassword */ = {
+			isa = PBXGroup;
+			children = (
+				BA33494720B5D49A006C0E2D /* SMHSetupPasswordViewController.h */,
+				BA33494820B5D49A006C0E2D /* SMHSetupPasswordViewController.m */,
+			);
+			path = SetupPassword;
 			sourceTree = "<group>";
 		};
 		BA9E30C620B4059D000F42F7 = {
@@ -476,18 +633,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA33490E20B5B6EA006C0E2D /* SMHLoginInputView.m in Sources */,
 				BA3348EF20B41D38006C0E2D /* SMHUserViewController.m in Sources */,
-				BA3348E220B41A0D006C0E2D /* SMHBaseViewController.m in Sources */,
-				BA33490320B4623C006C0E2D /* SMHWebViewController.m in Sources */,
+				BA33492820B5C0CD006C0E2D /* NVMStringAttribute+Align.m in Sources */,
+				BA33492420B5C0CD006C0E2D /* NVMStringAttribute.m in Sources */,
+				BA33492320B5C0CD006C0E2D /* NVMStringAttribute+Others.m in Sources */,
+				BA33492920B5C0CD006C0E2D /* NVMAttributesMaker.m in Sources */,
+				BA33493C20B5CA57006C0E2D /* SMHBaseViewController.m in Sources */,
 				BA3348DD20B4199C006C0E2D /* SMHRootManager.m in Sources */,
 				BA3348F220B41D44006C0E2D /* SMHRegionViewController.m in Sources */,
+				BA33492520B5C0CD006C0E2D /* NVMStringAttribute+Match.m in Sources */,
 				BA3348F720B42AB3006C0E2D /* SMHRequest.m in Sources */,
+				BA33492720B5C0CD006C0E2D /* NVMStringAttribute+Range.m in Sources */,
 				BA3348E820B41D13006C0E2D /* SMHSceneViewController.m in Sources */,
+				BA33490B20B5B6A6006C0E2D /* SMHLoginViewController.m in Sources */,
+				BA33494120B5CE60006C0E2D /* SMHBottomButton.m in Sources */,
 				BA3348E520B41B5C006C0E2D /* SMHCategoryViewController.m in Sources */,
+				BA33492620B5C0CD006C0E2D /* NVMStringAttribute+LineBreak.m in Sources */,
+				BA33494920B5D49A006C0E2D /* SMHSetupPasswordViewController.m in Sources */,
+				BA33492C20B5C525006C0E2D /* UIView+SMHExtension.m in Sources */,
+				BA33490620B54F52006C0E2D /* SMHMQManager.m in Sources */,
+				BA33494520B5D162006C0E2D /* SMHVerifyCodeViewController.m in Sources */,
 				BA3348FF20B42EE5006C0E2D /* UIApplication+SMHHierarchy.m in Sources */,
+				BA33493B20B5CA57006C0E2D /* SMHWebViewController.m in Sources */,
 				BA9E30E620B4059E000F42F7 /* main.m in Sources */,
 				BA3348EC20B41D2E006C0E2D /* SMHHomeViewController.m in Sources */,
+				BA33493020B5C721006C0E2D /* SMHRegisterViewController.m in Sources */,
+				BA33493420B5C9F6006C0E2D /* SMHHaveIconAndSeparatorInputView.m in Sources */,
 				BA9E30D420B4059D000F42F7 /* AppDelegate.m in Sources */,
+				BA33492220B5C0CD006C0E2D /* NSString+NVMAttributed.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -653,6 +827,7 @@
 				DEVELOPMENT_TEAM = N4YFZ84PFP;
 				GCC_PREFIX_HEADER = SmartHome/SmartHome.pch;
 				INFOPLIST_FILE = SmartHome/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -672,6 +847,7 @@
 				DEVELOPMENT_TEAM = N4YFZ84PFP;
 				GCC_PREFIX_HEADER = SmartHome/SmartHome.pch;
 				INFOPLIST_FILE = SmartHome/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

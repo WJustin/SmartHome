@@ -10,5 +10,6 @@
 #define SMHCategory_h
 
 #import "UIApplication+SMHHierarchy.h"
+#import "UIView+SMHExtension.h"
 
 #endif /* SMHCategory_h */

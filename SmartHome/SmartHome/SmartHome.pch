@@ -10,10 +10,12 @@
 #define SmartHome_pch
 
 #import <Masonry/Masonry.h>
+#import <YYWebImage/YYWebImage.h>
 #import <YYCategories/YYCategories.h>
 #import <FDFullscreenPopGesture/UINavigationController+FDFullscreenPopGesture.h>
 
 #import "SMHNetwork.h"
 #import "SMHUIkit.h"
+#import "SMHCategory.h"
 
 #endif /* SmartHome_pch */
