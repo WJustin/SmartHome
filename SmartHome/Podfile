@@ -5,13 +5,17 @@ def commonPods
     pod 'Masonry'
     pod 'YYWebImage'
     pod 'YYCategories'
-    pod 'JLRoutes'
     pod 'YYModel'
+    pod 'YYText'
+    pod 'JLRoutes'
     pod 'GSToast', :git => 'http://Justin.Wang@gitlab.goshare2.net/Justin.Wang/GSToast.git'
     pod 'YTKNetwork'
     pod 'FDFullscreenPopGesture'
     pod 'WebViewJavascriptBridge'
     pod 'MQTTClient'
+    pod 'MXParallaxHeader'
+    pod 'MMPopupView'
+    
 end
 
 target 'SmartHome' do
